@@ -24,7 +24,7 @@ namespace Repository
 
         public async Task<Pedido> Add(Pedido pedido)
         {
-            // Validacion fecha
+            // Validacion fecha 
             if (pedido.FechaPedido < DateTime.Today)
                 throw new InvalidOperationException("La fecha del pedido no puede ser anterior a hoy");
 
@@ -38,7 +38,6 @@ namespace Repository
 
         public async Task Update(Pedido pedido)
         {
-            // Validaciones similares al agregar pedido
             if (pedido.FechaPedido < DateTime.Today)
                 throw new InvalidOperationException("La fecha del pedido no puede ser anterior a hoy");
 

@@ -15,12 +15,20 @@
       "RelativeMoniker": "D:0:0:{E6F6D90A-DE44-491E-98E5-40B3BFB6A793}|Model\\Model.csproj|solutionrelative:model\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{10FC728B-BB64-4654-86BF-B1D3EEF9919C}|Api\\Api.csproj|c:\\users\\lenovo\\documents\\apppedidos\\apppedidos\\api\\controller\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10FC728B-BB64-4654-86BF-B1D3EEF9919C}|Api\\Api.csproj|solutionrelative:api\\controller\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB19955-345B-480A-AFBB-A92102835D87}|Repository\\Repository.csproj|c:\\users\\lenovo\\documents\\apppedidos\\apppedidos\\repository\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB19955-345B-480A-AFBB-A92102835D87}|Repository\\Repository.csproj|solutionrelative:repository\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C3A61A93-5D73-459A-AFCA-200792DEBBED}|Test\\Test.csproj|c:\\users\\lenovo\\documents\\apppedidos\\apppedidos\\test\\pedidocontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3A61A93-5D73-459A-AFCA-200792DEBBED}|Test\\Test.csproj|solutionrelative:test\\pedidocontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10FC728B-BB64-4654-86BF-B1D3EEF9919C}|Api\\Api.csproj|c:\\users\\lenovo\\documents\\apppedidos\\apppedidos\\api\\controller\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10FC728B-BB64-4654-86BF-B1D3EEF9919C}|Api\\Api.csproj|solutionrelative:api\\controller\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FB19955-345B-480A-AFBB-A92102835D87}|Repository\\Repository.csproj|c:\\users\\lenovo\\documents\\apppedidos\\apppedidos\\repository\\dbcontectfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB19955-345B-480A-AFBB-A92102835D87}|Repository\\Repository.csproj|solutionrelative:repository\\dbcontectfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FB19955-345B-480A-AFBB-A92102835D87}|Repository\\Repository.csproj|c:\\users\\lenovo\\documents\\apppedidos\\apppedidos\\repository\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,28 +110,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "DBContectFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\AppPedidos\\AppPedidos\\Repository\\DBContectFactory.cs",
+              "RelativeDocumentMoniker": "Repository\\DBContectFactory.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\AppPedidos\\AppPedidos\\Repository\\DBContectFactory.cs",
+              "RelativeToolTip": "Repository\\DBContectFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T18:22:11.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\AppPedidos\\AppPedidos\\Repository\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Repository\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\AppPedidos\\AppPedidos\\Repository\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Repository\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T18:02:16.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "PedidoControllerTest.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\AppPedidos\\AppPedidos\\Test\\PedidoControllerTest.cs",
               "RelativeDocumentMoniker": "Test\\PedidoControllerTest.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Documents\\AppPedidos\\AppPedidos\\Test\\PedidoControllerTest.cs",
               "RelativeToolTip": "Test\\PedidoControllerTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T12:38:28.835Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "PedidoRepository.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\AppPedidos\\AppPedidos\\Repository\\PedidoRepository.cs",
               "RelativeDocumentMoniker": "Repository\\PedidoRepository.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Documents\\AppPedidos\\AppPedidos\\Repository\\PedidoRepository.cs",
               "RelativeToolTip": "Repository\\PedidoRepository.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwD0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T12:37:40.995Z"
+              "WhenOpened": "2024-12-10T12:37:40.995Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -133,7 +168,7 @@
               "RelativeDocumentMoniker": "Model\\PedidoItem.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Documents\\AppPedidos\\AppPedidos\\Model\\PedidoItem.cs",
               "RelativeToolTip": "Model\\PedidoItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T12:36:34.032Z",
               "EditorCaption": ""
@@ -146,7 +181,7 @@
               "RelativeDocumentMoniker": "Model\\Pedido.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Documents\\AppPedidos\\AppPedidos\\Model\\Pedido.cs",
               "RelativeToolTip": "Model\\Pedido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T12:36:09.156Z",
               "EditorCaption": ""
@@ -166,13 +201,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "PedidoController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\AppPedidos\\AppPedidos\\Api\\Controller\\PedidoController.cs",
               "RelativeDocumentMoniker": "Api\\Controller\\PedidoController.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Documents\\AppPedidos\\AppPedidos\\Api\\Controller\\PedidoController.cs",
               "RelativeToolTip": "Api\\Controller\\PedidoController.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAowDMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwD4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T12:34:44.287Z",
               "EditorCaption": ""

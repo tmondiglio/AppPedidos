@@ -38,9 +38,8 @@ namespace Test
         }
 
         [TestMethod]
-        public async Task Given_ARequestWithPastDate_When_Create_Then_ShouldReturnBadRequest()
+        public async Task Prueba_de_fecha_de_Pedido()
         {
-            // Arrange
             var pedido = new Pedido
             {
                 FechaPedido = DateTime.Today.AddDays(-1),
@@ -49,19 +48,16 @@ namespace Test
                 IdCliente = 1
             };
 
-            // Act
             var result = await _controller.Create(pedido);
 
-            // Assert
             Assert.IsInstanceOfType(result.Result, typeof(BadRequestObjectResult));
             var badRequestResult = result.Result as BadRequestObjectResult;
             Assert.AreEqual("La fecha del pedido no puede ser anterior a hoy", badRequestResult.Value);
         }
 
         [TestMethod]
-        public async Task Given_AnInvalidClientId_When_Create_Then_ShouldReturnBadRequest()
+        public async Task Pedido_Sin_Cliente_ID()
         {
-            // Arrange
             var pedido = new Pedido
             {
                 FechaPedido = DateTime.Today,
@@ -70,19 +66,16 @@ namespace Test
                 IdCliente = 999
             };
 
-            // Act
             var result = await _controller.Create(pedido);
 
-            // Assert
             Assert.IsInstanceOfType(result.Result, typeof(BadRequestObjectResult));
             var badRequestResult = result.Result as BadRequestObjectResult;
             Assert.AreEqual("El cliente especificado no existe en el sistema", badRequestResult.Value);
         }
 
         [TestMethod]
-        public async Task Given_AValidRequest_When_Create_Then_ShouldReturnCreated()
+        public async Task Prueba_Pedido_Valido()
         {
-            // Arrange
             var cliente = new Cliente
             {
                 Cuit = "TEST_20123456789",
@@ -101,10 +94,8 @@ namespace Test
                 IdCliente = cliente.IdCliente
             };
 
-            // Act
             var result = await _controller.Create(pedido);
 
-            // Assert
             Assert.IsInstanceOfType(result.Result, typeof(CreatedAtActionResult));
         }
     }

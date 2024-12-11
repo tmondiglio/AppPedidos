@@ -1,12 +1,10 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-
 namespace Model
 {
     public class PedidoItem
     {
-        [Required(ErrorMessage = "El ID del pedido es obligatorio")]
         public long IdPedido { get; set; }
 
         [Required(ErrorMessage = "El ID del item es obligatorio")]
@@ -17,5 +15,6 @@ namespace Model
 
         [Required(ErrorMessage = "La cantidad es obligatoria")]
         public double Cantidad { get; set; }
+
     }
 }

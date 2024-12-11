@@ -60,18 +60,20 @@ namespace Api.Controllers
                 if (!ModelState.IsValid)
                     return BadRequest(ModelState);
 
-                // Validación de fecha del pedido
+          
                 if (pedido.FechaPedido.Date < DateTime.Today)
                     return BadRequest("La fecha del pedido no puede ser anterior a hoy");
 
-                // Validación de fecha de entrega
+     
                 if (pedido.FechaEntrega < pedido.FechaPedido)
                     return BadRequest("La fecha de entrega no puede ser anterior a la fecha del pedido");
 
-                // Validación de cliente existente
+        
                 var cliente = await _clienteRepository.GetById(pedido.IdCliente);
                 if (cliente == null)
                     return BadRequest("El cliente especificado no existe en el sistema");
+
+                pedido.PedidoItems = null;
 
                 await _repository.Add(pedido);
                 return CreatedAtAction(nameof(GetById), new { id = pedido.IdPedido }, pedido);

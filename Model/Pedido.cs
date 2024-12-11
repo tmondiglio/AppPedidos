@@ -1,12 +1,11 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-
+using System.Collections.Generic;
 
 namespace Model
 {
     public class Pedido
     {
-       
         public long IdPedido { get; set; }
 
         [Required(ErrorMessage = "La fecha del pedido es obligatoria")]
