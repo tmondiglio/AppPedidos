@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\Documents\\AppPedidos\\AppPedidos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10FC728B-BB64-4654-86BF-B1D3EEF9919C}|Api\\Api.csproj|c:\\users\\lenovo\\documents\\apppedidos\\apppedidos\\api\\controller\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10FC728B-BB64-4654-86BF-B1D3EEF9919C}|Api\\Api.csproj|solutionrelative:api\\controller\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6F6D90A-DE44-491E-98E5-40B3BFB6A793}|Model\\Model.csproj|c:\\users\\lenovo\\documents\\apppedidos\\apppedidos\\model\\pedidoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6F6D90A-DE44-491E-98E5-40B3BFB6A793}|Model\\Model.csproj|solutionrelative:model\\pedidoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6F6D90A-DE44-491E-98E5-40B3BFB6A793}|Model\\Model.csproj|c:\\users\\lenovo\\documents\\apppedidos\\apppedidos\\model\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6F6D90A-DE44-491E-98E5-40B3BFB6A793}|Model\\Model.csproj|solutionrelative:model\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E6F6D90A-DE44-491E-98E5-40B3BFB6A793}|Model\\Model.csproj|c:\\users\\lenovo\\documents\\apppedidos\\apppedidos\\model\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6F6D90A-DE44-491E-98E5-40B3BFB6A793}|Model\\Model.csproj|solutionrelative:model\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C3A61A93-5D73-459A-AFCA-200792DEBBED}|Test\\Test.csproj|c:\\users\\lenovo\\documents\\apppedidos\\apppedidos\\test\\pedidocontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3A61A93-5D73-459A-AFCA-200792DEBBED}|Test\\Test.csproj|solutionrelative:test\\pedidocontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6F6D90A-DE44-491E-98E5-40B3BFB6A793}|Model\\Model.csproj|c:\\users\\lenovo\\documents\\apppedidos\\apppedidos\\model\\pedidoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6F6D90A-DE44-491E-98E5-40B3BFB6A793}|Model\\Model.csproj|solutionrelative:model\\pedidoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6F6D90A-DE44-491E-98E5-40B3BFB6A793}|Model\\Model.csproj|c:\\users\\lenovo\\documents\\apppedidos\\apppedidos\\model\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6F6D90A-DE44-491E-98E5-40B3BFB6A793}|Model\\Model.csproj|solutionrelative:model\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10FC728B-BB64-4654-86BF-B1D3EEF9919C}|Api\\Api.csproj|c:\\users\\lenovo\\documents\\apppedidos\\apppedidos\\api\\controller\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10FC728B-BB64-4654-86BF-B1D3EEF9919C}|Api\\Api.csproj|solutionrelative:api\\controller\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FB19955-345B-480A-AFBB-A92102835D87}|Repository\\Repository.csproj|c:\\users\\lenovo\\documents\\apppedidos\\apppedidos\\repository\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 21,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PedidoControllerTest.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\AppPedidos\\AppPedidos\\Test\\PedidoControllerTest.cs",
               "RelativeDocumentMoniker": "Test\\PedidoControllerTest.cs",
@@ -110,7 +110,8 @@
               "RelativeToolTip": "Test\\PedidoControllerTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T12:38:28.835Z"
+              "WhenOpened": "2024-12-10T12:38:28.835Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -126,15 +127,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "PedidoItem.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\AppPedidos\\AppPedidos\\Model\\PedidoItem.cs",
               "RelativeDocumentMoniker": "Model\\PedidoItem.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Documents\\AppPedidos\\AppPedidos\\Model\\PedidoItem.cs",
               "RelativeToolTip": "Model\\PedidoItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T12:36:34.032Z"
+              "WhenOpened": "2024-12-10T12:36:34.032Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -144,25 +146,27 @@
               "RelativeDocumentMoniker": "Model\\Pedido.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Documents\\AppPedidos\\AppPedidos\\Model\\Pedido.cs",
               "RelativeToolTip": "Model\\Pedido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T12:36:09.156Z"
+              "WhenOpened": "2024-12-10T12:36:09.156Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\AppPedidos\\AppPedidos\\Model\\Cliente.cs",
               "RelativeDocumentMoniker": "Model\\Cliente.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Documents\\AppPedidos\\AppPedidos\\Model\\Cliente.cs",
               "RelativeToolTip": "Model\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T12:36:00.801Z"
+              "WhenOpened": "2024-12-10T12:36:00.801Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "PedidoController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\AppPedidos\\AppPedidos\\Api\\Controller\\PedidoController.cs",
               "RelativeDocumentMoniker": "Api\\Controller\\PedidoController.cs",

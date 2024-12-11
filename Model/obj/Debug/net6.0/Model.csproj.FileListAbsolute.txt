@@ -9,3 +9,4 @@ C:\Users\Lenovo\Documents\AppPedidos\AppPedidos\Model\obj\Debug\net6.0\Model.dll
 C:\Users\Lenovo\Documents\AppPedidos\AppPedidos\Model\obj\Debug\net6.0\refint\Model.dll
 C:\Users\Lenovo\Documents\AppPedidos\AppPedidos\Model\obj\Debug\net6.0\Model.pdb
 C:\Users\Lenovo\Documents\AppPedidos\AppPedidos\Model\obj\Debug\net6.0\ref\Model.dll
+C:\Users\Lenovo\Documents\AppPedidos\AppPedidos\Model\obj\Debug\net6.0\Model.sourcelink.json

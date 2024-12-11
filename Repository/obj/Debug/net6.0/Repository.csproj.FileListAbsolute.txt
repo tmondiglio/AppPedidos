@@ -15,3 +15,4 @@ C:\Users\Lenovo\Documents\AppPedidos\AppPedidos\Repository\obj\Debug\net6.0\refi
 C:\Users\Lenovo\Documents\AppPedidos\AppPedidos\Repository\obj\Debug\net6.0\Repository.pdb
 C:\Users\Lenovo\Documents\AppPedidos\AppPedidos\Repository\obj\Debug\net6.0\Repository.genruntimeconfig.cache
 C:\Users\Lenovo\Documents\AppPedidos\AppPedidos\Repository\obj\Debug\net6.0\ref\Repository.dll
+C:\Users\Lenovo\Documents\AppPedidos\AppPedidos\Repository\obj\Debug\net6.0\Repository.sourcelink.json

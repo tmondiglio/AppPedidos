@@ -67,3 +67,4 @@ C:\Users\Lenovo\Documents\AppPedidos\AppPedidos\Api\obj\Debug\net6.0\refint\Api.
 C:\Users\Lenovo\Documents\AppPedidos\AppPedidos\Api\obj\Debug\net6.0\Api.pdb
 C:\Users\Lenovo\Documents\AppPedidos\AppPedidos\Api\obj\Debug\net6.0\Api.genruntimeconfig.cache
 C:\Users\Lenovo\Documents\AppPedidos\AppPedidos\Api\obj\Debug\net6.0\ref\Api.dll
+C:\Users\Lenovo\Documents\AppPedidos\AppPedidos\Api\obj\Debug\net6.0\Api.sourcelink.json
